@@ -1,0 +1,31 @@
+.container{
+    position: relative;
+    width: 600px;
+    height : 600px;
+    background-color: purple;
+    display: flex;
+    flex-direction: column
+}
+
+.weeebtn{
+    padding: 10px 30px
+}
+
+.divcarte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carte{    
+    width: 400px;
+    height: 700px;
+    background-color: rgb(235, 217, 137);
+    border: 3px dotted rgb(231, 125, 54);
+    border-radius: 20px;
+}
+
+.nomcarte{
+    font-size: 30px;
+    text-align: center;
+}

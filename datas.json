@@ -1,0 +1,12 @@
+{
+    "Nom":"nomEvenement",
+    "category":"categoryEvenements",
+    "categoryEvenements":[
+        {
+        "musique":"Musique",
+        "convention": "Convention",
+        "tatouage": "Tatouage",
+        "manga": "Manga"
+        }
+    ]
+}
