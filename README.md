@@ -15,6 +15,7 @@ pour visualiser le projet dans votre navigateur, il est conseillé d'utiliser l'
 
 ![image](https://github.com/user-attachments/assets/dea5da73-ea77-4919-9703-223797d356e2)
 
+
 ```
 $(document).ready(function() {
     $.getJSON("datas.json")
@@ -35,6 +36,7 @@ $(document).ready(function() {
     });
 });
 ```
+
 
 Au déclenchement de la fonction "Ready" :
   - Déclenchement de la fonction pour récuperer au format JSON les données
