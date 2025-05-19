@@ -11,9 +11,30 @@ JSON : les données du projets sont stockées dans le fichier datas.json
 pour installer le projet, utiliser la commande "git remote..."
 pour visualiser le projet dans votre navigateur, il est conseillé d'utiliser l'extension "Live Server" dans votre VisualStudioCode
 
-Déroulement 
+## Déroulement 
 
 ![image](https://github.com/user-attachments/assets/dea5da73-ea77-4919-9703-223797d356e2)
+
+```
+$(document).ready(function() {
+    $.getJSON("datas.json")
+    .done(function (data){
+        const container = $(".divcarte");
+        const listOfCategory = data.categoryEvenements;
+
+        listOfCategory.forEach(category => {
+            const catHTML = `
+        <div class="divcarte">
+        <div class="carte">
+        <h3 class="nomcarte">${category.musique}, ${category.convention}, ${category.tatouage}</h3>
+        </div>
+        </div>`;
+        
+        container.append(catHTML)
+    })
+    });
+});
+```
 
 Au déclenchement de la fonction "Ready" :
   - Déclenchement de la fonction pour récuperer au format JSON les données
