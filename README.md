@@ -1,4 +1,4 @@
-JQuery-Learning est un projet réalisé en JAVASCRIPT.
+# JQuery-Learning est un projet réalisé en JAVASCRIPT.
 
 Réalisation d'un système dynamique en Javascript pour afficher à partir d'un fichier JSON une liste selon les catégories prédéfinies.
 
@@ -6,7 +6,7 @@ JQuery : JQuery est inclus dans le projet localement à partir des fichiers JS
 JSON : les données du projets sont stockées dans le fichier datas.json
 
 
-Installation
+## Installation
 
 pour installer le projet, utiliser la commande "git remote..."
 pour visualiser le projet dans votre navigateur, il est conseillé d'utiliser l'extension "Live Server" dans votre VisualStudioCode
