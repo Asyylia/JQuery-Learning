@@ -8,7 +8,7 @@ JSON : les données du projets sont stockées dans le fichier datas.json
 
 ## Installation
 
-pour installer le projet, utiliser la commande "git remote..."
+pour installer le projet, utiliser la commande "git clone..."
 
 pour visualiser le projet dans votre navigateur, il est conseillé d'utiliser l'extension "Live Server" dans votre VisualStudioCode
 
